@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+}
+
+.header {
+    
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+    display: grid;
+    gap: 24px;
+    align-content: start;
+}
+
+.content {
+
+}
