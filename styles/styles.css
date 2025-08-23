@@ -137,6 +137,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 3fr 1fr;
     padding: 24px;
+    gap: 24px;
 }
 
 .content > div:first-child {
@@ -145,6 +146,7 @@
 
 .content h1 {
     font-size: 1.3rem;
+    padding-left: 8px;
 }
 
 .card, .announcement, .trending {
@@ -162,7 +164,7 @@
 .announcement, .trending {
     display: flex;
     flex-direction: column;
-    padding: 24px
+    padding: 32px;
 }
 
 .announcement {
