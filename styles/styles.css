@@ -4,6 +4,7 @@
     --border-circle-size: 50%;
     --gray-bg: #e5e7eb;
     --content-bg: #e2e8f0;
+    --content-p-clr: #5d5d5d;
 }
 
 .container {
@@ -150,6 +151,10 @@
 .content h1 {
     font-size: 1.3rem;
     padding-left: 8px;
+}
+
+.content p {
+    color: var(--content-p-clr);
 }
 
 .card, .announcement, .trending {
