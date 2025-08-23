@@ -1,3 +1,11 @@
+:root {
+    --blue-bg: hsl(201, 79%, 46%);
+    --white-font: white;
+    --border-circle-size: 50%;
+    --gray-bg: #e5e7eb;
+    --content-bg: #e2e8f0;
+}
+
 .container {
     display: grid;
     grid-template-rows: 1fr 5fr;
@@ -9,6 +17,50 @@
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 3fr 2fr;
+    align-items: center;
+}
+
+.header svg {
+    width: 25px;
+    height: 25px;
+}
+
+.searchbar {
+    justify-self: start;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.searchbar input {
+    width: 700px;
+    background-color: var(--gray-bg);
+    border: none;
+    border-radius: 24px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.user-banner {
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    padding: 6px 24px;
+    background-color: var(--blue-bg);
+    border: none;
+    border-radius: 16px;
+    color: var(--white-font);
 }
 
 .sidebar {
