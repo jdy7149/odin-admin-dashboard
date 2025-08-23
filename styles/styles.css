@@ -18,18 +18,18 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 3fr 2fr;
     align-items: center;
+    margin-left: 24px;
 }
 
-.header svg {
+.header .icon {
     width: 25px;
     height: 25px;
 }
 
 .searchbar {
-    justify-self: start;
     display: flex;
-    justify-content: space-around;
     gap: 24px;
+    margin-left: 16px;
 }
 
 .searchbar input {
@@ -39,15 +39,39 @@
     border-radius: 24px;
 }
 
+.user-info, .user-description {
+    font-weight: 600;
+}
+
 .user-info {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
+    font-size: 1.1rem;
+}
+
+.user-info .profile-image {
+    width: 60px;
+    height: 60px;
 }
 
 .user-banner {
-    
+    display: flex;
+    align-items: center;
+}
+
+.user-banner .profile-image {
+    width: 75px;
+    height: 75px;
+}
+
+.user-description > :first-child {
+    font-size: 0.8rem;
+}
+
+.user-description > :last-child {
+    font-size: 1.2rem;
 }
 
 .buttons {
@@ -68,8 +92,9 @@
     display: grid;
     gap: 24px;
     align-content: start;
+    background-color: var(--blue-bg);
 }
 
 .content {
-
+    background-color: var(--content-bg);
 }
