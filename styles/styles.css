@@ -5,6 +5,7 @@
     --gray-bg: #e5e7eb;
     --content-bg: #e2e8f0;
     --content-p-clr: #5d5d5d;
+    --card-border-clr: #f0b429;
 }
 
 .container {
@@ -83,11 +84,12 @@
 }
 
 .buttons button {
-    padding: 6px 24px;
+    padding: 8px 24px;
     background-color: var(--blue-bg);
     border: none;
     border-radius: 16px;
     color: var(--white);
+    font-weight: 500;
 }
 
 /* Sidebar */
@@ -194,8 +196,9 @@
     margin-top: 16px;
 }
 
-.announcement {
-
+.announcement hr {
+    border: none;
+    border-top: 1px solid var(--content-p-clr);
 }
 
 .trending {
