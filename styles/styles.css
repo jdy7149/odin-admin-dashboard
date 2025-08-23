@@ -177,6 +177,7 @@
     flex-direction: column;
     padding: 32px;
     gap: 16px;
+    border-left: 8px solid var(--card-border-clr);
 }
 
 .card p {
