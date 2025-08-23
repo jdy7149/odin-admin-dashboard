@@ -13,6 +13,7 @@
     height: 100vh;
 }
 
+/* Header */
 .header {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -87,12 +88,49 @@
     color: var(--white-font);
 }
 
+/* Sidebar */
 .sidebar {
     grid-row: 1 / 3;
     display: grid;
     gap: 24px;
     align-content: start;
     background-color: var(--blue-bg);
+    color: var(--white-font);
+    padding-top: 16px;
+    font-weight: 500;
+}
+
+.sidebar .icon {
+    filter: invert(1) brightness(2);
+}
+
+.logo, .sidebar li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu, .info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-left: 30px;
+    gap: 4px;
+}
+
+.logo .icon {
+    width: 50px;
+    height: 50px;
+}
+
+.menu .icon, .info .icon {
+    width: 30px;
+    height: 30px;
 }
 
 .content {
