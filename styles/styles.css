@@ -6,12 +6,17 @@
     --content-bg: #e2e8f0;
     --content-p-clr: #5d5d5d;
     --card-border-clr: #f0b429;
+    --card-shadow-clr: rgb(202, 202, 202);
 }
 
 .container {
     display: grid;
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 5fr;
+}
+
+.card, .announcement, .trending {
+    box-shadow: 1px 1px 4px 2px var(--card-shadow-clr);
 }
 
 /* Header */
@@ -200,10 +205,6 @@
 .announcement hr {
     border: none;
     border-top: 1px solid var(--content-p-clr);
-}
-
-.trending {
-    
 }
 
 .trending img {
