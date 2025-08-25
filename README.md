@@ -2,7 +2,7 @@
 
 **Basic admin dashboard** project built using **HTML**, **CSS**, and **Flexbox/Grid layout** from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
 
----
+[Live Preview](https://jdy7149.github.io/odin-admin-dashboard)
 
 ## Built with
 
