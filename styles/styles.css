@@ -6,7 +6,7 @@
     --content-bg: #e2e8f0;
     --content-p-clr: #5d5d5d;
     --card-border-clr: #f0b429;
-    --card-shadow-clr: rgb(202, 202, 202);
+    --shadow-clr: rgb(202, 202, 202);
 }
 
 .container {
@@ -16,7 +16,7 @@
 }
 
 .card, .announcement, .trending {
-    box-shadow: 1px 1px 4px 2px var(--card-shadow-clr);
+    box-shadow: 1px 1px 4px 2px var(--shadow-clr);
 }
 
 /* Header */
@@ -25,7 +25,9 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 3fr 2fr;
     align-items: center;
-    margin-left: 24px;
+    padding-left: 24px;
+    box-shadow: 0 1px 2px 2px var(--shadow-clr);
+    z-index: 2;
 }
 
 .header .icon {
@@ -107,6 +109,8 @@
     color: var(--white);
     padding-top: 16px;
     font-weight: 500;
+    box-shadow: 1px 0 2px 2px var(--shadow-clr);
+    z-index: 3;
 }
 
 .sidebar .icon {
